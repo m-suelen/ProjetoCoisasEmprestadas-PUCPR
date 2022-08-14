@@ -8,7 +8,3 @@ qual mais me identifiquei). O sistema consiste em:
 * Permitir ao usuário acessar/configurar seus dados, que ficam salvos.
 * Realizar o cadastro do item emprestado, data e contato do destinatário.
 
-### Ferramentas utilizadas:
-
-* Plataforma: Heroku
-* Banco de Dados: db4free.net
