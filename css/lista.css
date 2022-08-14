@@ -1,0 +1,82 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #f2e6ff;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 68%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+#customers tr:nth-child(even){background-color: #cc99ff;}
+#customers tr {background-color: #e6ccff;}
+
+#customers tr:hover {background-color: #f2e6ff;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: black;
+  color: white;
+}
+input[type=submit] {
+  width: 15%;
+  background-color: #9933ff;
+  color: white;
+  padding: 10px 18px;
+  margin: auto;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer; 
+  font-weight: bold; 
+}
+input[type=submit]:hover {
+  background-color: #bf80ff;
+}
+
